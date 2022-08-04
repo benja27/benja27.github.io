@@ -1,0 +1,56 @@
+section{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;    
+}
+.sedan{
+    background-color: #E28525;
+    width: 300px;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+}
+.sedan img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.sedan > h1{
+    color: #fff;
+    text-transform:uppercase ;
+    margin-bottom: 20px;
+}
+.sedan > h3{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+.sedan > button{
+    background-color: #fff;
+    padding: 4px 15px ;
+    border-radius: 14px;
+    color: #E28525;
+    margin-bottom: 20px;
+    border: none;
+}
+.sub{
+    background-color: #016972;
+    border-radius: 0;
+}
+.sub> button{
+    color: #016972;
+}
+.lux{
+    background-color: #00403F;
+    border-radius: 0 0 10px 10px;
+}
+.lux > button{
+    color: #00403F;
+    
+}
+@media (min-width:1000px) {
+    section{
+        flex-direction: row;
+    }
+}
