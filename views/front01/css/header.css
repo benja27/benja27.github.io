@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid black; */
+    align-items: center;
+}
+.logo >*{
+    display: inline-block;    
+}
+.logo>h1:first-child > a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 200;
+    text-decoration: none;
+}
+.logo>h1:nth-child(2){
+    font-weight: 300;
+}
+.burguer > img{
+    width: 80px;
+    cursor: pointer;
+}
